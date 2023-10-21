@@ -16,11 +16,10 @@ const board = document.getElementById('board')
 const winningMessageElement = document.getElementById('winningMessage')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
 const restartButton = document.getElementById('restart-button')
-
 let circleTurn
 
 startGame()
-
+ 
 restartButton.addEventListener('click', startGame)
 
 function startGame() {
